@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73321C8614D83EBB82D45144 /* Pods_GKQQMusicDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4C0CF16597175DE06DE258 /* Pods_GKQQMusicDemo.framework */; };
+		799FF3D31F63EF3B004F132B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 799FF3D21F63EF3B004F132B /* main.m */; };
+		799FF3DC1F63EF3B004F132B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 799FF3DA1F63EF3B004F132B /* Main.storyboard */; };
+		799FF3DE1F63EF3B004F132B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 799FF3DD1F63EF3B004F132B /* Assets.xcassets */; };
+		799FF3E11F63EF3B004F132B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 799FF3DF1F63EF3B004F132B /* LaunchScreen.storyboard */; };
+		799FF3EC1F63EF3C004F132B /* GKQQMusicDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 799FF3EB1F63EF3C004F132B /* GKQQMusicDemoTests.m */; };
+		799FF3F71F63EF3C004F132B /* GKQQMusicDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 799FF3F61F63EF3C004F132B /* GKQQMusicDemoUITests.m */; };
+		799FF42A1F650B0F004F132B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 799FF4291F650B0F004F132B /* AppDelegate.m */; };
+		799FF43C1F650B60004F132B /* GKPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 799FF42F1F650B60004F132B /* GKPlayer.m */; };
+		799FF43D1F650B60004F132B /* GKSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 799FF4321F650B60004F132B /* GKSliderView.m */; };
+		799FF43E1F650B60004F132B /* GKLyricModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 799FF4361F650B60004F132B /* GKLyricModel.m */; };
+		799FF43F1F650B60004F132B /* GKLyricParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 799FF4381F650B60004F132B /* GKLyricParser.m */; };
+		799FF4401F650B60004F132B /* GKTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 799FF43B1F650B60004F132B /* GKTool.m */; };
+		799FF4461F650BD4004F132B /* GKQQListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799FF4451F650BD4004F132B /* GKQQListViewController.m */; };
+		799FF4491F650BE0004F132B /* GKQQPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799FF4481F650BE0004F132B /* GKQQPlayerViewController.m */; };
+		799FF44C1F650C08004F132B /* GKQQTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 799FF44B1F650C08004F132B /* GKQQTools.m */; };
+		799FF44F1F651481004F132B /* GKQQPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 799FF44E1F651481004F132B /* GKQQPlayerControlView.m */; };
+		799FF4531F652F4C004F132B /* GKQQListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 799FF4511F652F4C004F132B /* GKQQListViewCell.m */; };
+		799FF4541F652F4C004F132B /* GKQQListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 799FF4521F652F4C004F132B /* GKQQListViewCell.xib */; };
+		79A854B61F65364A000714AF /* audio.json in Resources */ = {isa = PBXBuildFile; fileRef = 79A854B51F65364A000714AF /* audio.json */; };
+		79A854B91F653B38000714AF /* GKQQLyricView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A854B81F653B38000714AF /* GKQQLyricView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		799FF3E81F63EF3C004F132B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 799FF3C61F63EF3B004F132B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 799FF3CD1F63EF3B004F132B;
+			remoteInfo = GKQQMusicDemo;
+		};
+		799FF3F31F63EF3C004F132B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 799FF3C61F63EF3B004F132B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 799FF3CD1F63EF3B004F132B;
+			remoteInfo = GKQQMusicDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DF2E0A47D456BC21FB62938 /* Pods-GKQQMusicDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GKQQMusicDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GKQQMusicDemo/Pods-GKQQMusicDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4F4C0CF16597175DE06DE258 /* Pods_GKQQMusicDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GKQQMusicDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		799FF3CE1F63EF3B004F132B /* GKQQMusicDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GKQQMusicDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		799FF3D21F63EF3B004F132B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		799FF3DB1F63EF3B004F132B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		799FF3DD1F63EF3B004F132B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		799FF3E01F63EF3B004F132B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		799FF3E21F63EF3B004F132B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		799FF3E71F63EF3C004F132B /* GKQQMusicDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GKQQMusicDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		799FF3EB1F63EF3C004F132B /* GKQQMusicDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKQQMusicDemoTests.m; sourceTree = "<group>"; };
+		799FF3ED1F63EF3C004F132B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		799FF3F21F63EF3C004F132B /* GKQQMusicDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GKQQMusicDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		799FF3F61F63EF3C004F132B /* GKQQMusicDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKQQMusicDemoUITests.m; sourceTree = "<group>"; };
+		799FF3F81F63EF3C004F132B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		799FF4261F65095C004F132B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		799FF4281F650B0F004F132B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		799FF4291F650B0F004F132B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		799FF42E1F650B60004F132B /* GKPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKPlayer.h; sourceTree = "<group>"; };
+		799FF42F1F650B60004F132B /* GKPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKPlayer.m; sourceTree = "<group>"; };
+		799FF4311F650B60004F132B /* GKSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKSliderView.h; sourceTree = "<group>"; };
+		799FF4321F650B60004F132B /* GKSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKSliderView.m; sourceTree = "<group>"; };
+		799FF4351F650B60004F132B /* GKLyricModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKLyricModel.h; sourceTree = "<group>"; };
+		799FF4361F650B60004F132B /* GKLyricModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKLyricModel.m; sourceTree = "<group>"; };
+		799FF4371F650B60004F132B /* GKLyricParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKLyricParser.h; sourceTree = "<group>"; };
+		799FF4381F650B60004F132B /* GKLyricParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKLyricParser.m; sourceTree = "<group>"; };
+		799FF43A1F650B60004F132B /* GKTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKTool.h; sourceTree = "<group>"; };
+		799FF43B1F650B60004F132B /* GKTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKTool.m; sourceTree = "<group>"; };
+		799FF4441F650BD4004F132B /* GKQQListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKQQListViewController.h; sourceTree = "<group>"; };
+		799FF4451F650BD4004F132B /* GKQQListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKQQListViewController.m; sourceTree = "<group>"; };
+		799FF4471F650BE0004F132B /* GKQQPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKQQPlayerViewController.h; sourceTree = "<group>"; };
+		799FF4481F650BE0004F132B /* GKQQPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKQQPlayerViewController.m; sourceTree = "<group>"; };
+		799FF44A1F650C08004F132B /* GKQQTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKQQTools.h; sourceTree = "<group>"; };
+		799FF44B1F650C08004F132B /* GKQQTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKQQTools.m; sourceTree = "<group>"; };
+		799FF44D1F651481004F132B /* GKQQPlayerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKQQPlayerControlView.h; sourceTree = "<group>"; };
+		799FF44E1F651481004F132B /* GKQQPlayerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKQQPlayerControlView.m; sourceTree = "<group>"; };
+		799FF4501F652F4C004F132B /* GKQQListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKQQListViewCell.h; sourceTree = "<group>"; };
+		799FF4511F652F4C004F132B /* GKQQListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKQQListViewCell.m; sourceTree = "<group>"; };
+		799FF4521F652F4C004F132B /* GKQQListViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GKQQListViewCell.xib; sourceTree = "<group>"; };
+		79A854B51F65364A000714AF /* audio.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = audio.json; sourceTree = "<group>"; };
+		79A854B71F653B38000714AF /* GKQQLyricView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKQQLyricView.h; sourceTree = "<group>"; };
+		79A854B81F653B38000714AF /* GKQQLyricView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKQQLyricView.m; sourceTree = "<group>"; };
+		F01FBAE6CA214BB9E52270DC /* Pods-GKQQMusicDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GKQQMusicDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GKQQMusicDemo/Pods-GKQQMusicDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		799FF3CB1F63EF3B004F132B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73321C8614D83EBB82D45144 /* Pods_GKQQMusicDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		799FF3E41F63EF3C004F132B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		799FF3EF1F63EF3C004F132B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		441070549F6A51A9DFC19CAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F01FBAE6CA214BB9E52270DC /* Pods-GKQQMusicDemo.debug.xcconfig */,
+				4DF2E0A47D456BC21FB62938 /* Pods-GKQQMusicDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		61801CF03A3CF5DF241EF7B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F4C0CF16597175DE06DE258 /* Pods_GKQQMusicDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		799FF3C51F63EF3B004F132B = {
+			isa = PBXGroup;
+			children = (
+				799FF3D01F63EF3B004F132B /* GKQQMusicDemo */,
+				799FF3EA1F63EF3C004F132B /* GKQQMusicDemoTests */,
+				799FF3F51F63EF3C004F132B /* GKQQMusicDemoUITests */,
+				799FF3CF1F63EF3B004F132B /* Products */,
+				441070549F6A51A9DFC19CAC /* Pods */,
+				61801CF03A3CF5DF241EF7B2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		799FF3CF1F63EF3B004F132B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				799FF3CE1F63EF3B004F132B /* GKQQMusicDemo.app */,
+				799FF3E71F63EF3C004F132B /* GKQQMusicDemoTests.xctest */,
+				799FF3F21F63EF3C004F132B /* GKQQMusicDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		799FF3D01F63EF3B004F132B /* GKQQMusicDemo */ = {
+			isa = PBXGroup;
+			children = (
+				799FF4271F650B0F004F132B /* Classes */,
+				799FF3D11F63EF3B004F132B /* Supporting Files */,
+			);
+			path = GKQQMusicDemo;
+			sourceTree = "<group>";
+		};
+		799FF3D11F63EF3B004F132B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79A854B51F65364A000714AF /* audio.json */,
+				799FF3DA1F63EF3B004F132B /* Main.storyboard */,
+				799FF3DD1F63EF3B004F132B /* Assets.xcassets */,
+				799FF3DF1F63EF3B004F132B /* LaunchScreen.storyboard */,
+				799FF3E21F63EF3B004F132B /* Info.plist */,
+				799FF3D21F63EF3B004F132B /* main.m */,
+				799FF4261F65095C004F132B /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		799FF3EA1F63EF3C004F132B /* GKQQMusicDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				799FF3EB1F63EF3C004F132B /* GKQQMusicDemoTests.m */,
+				799FF3ED1F63EF3C004F132B /* Info.plist */,
+			);
+			path = GKQQMusicDemoTests;
+			sourceTree = "<group>";
+		};
+		799FF3F51F63EF3C004F132B /* GKQQMusicDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				799FF3F61F63EF3C004F132B /* GKQQMusicDemoUITests.m */,
+				799FF3F81F63EF3C004F132B /* Info.plist */,
+			);
+			path = GKQQMusicDemoUITests;
+			sourceTree = "<group>";
+		};
+		799FF4271F650B0F004F132B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				799FF4281F650B0F004F132B /* AppDelegate.h */,
+				799FF4291F650B0F004F132B /* AppDelegate.m */,
+				799FF42C1F650B2D004F132B /* QQMusic */,
+				799FF42D1F650B60004F132B /* GKPlayer */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		799FF42C1F650B2D004F132B /* QQMusic */ = {
+			isa = PBXGroup;
+			children = (
+				799FF4411F650B76004F132B /* Controlller */,
+				799FF4421F650B76004F132B /* Model */,
+				799FF4431F650B76004F132B /* View */,
+			);
+			path = QQMusic;
+			sourceTree = "<group>";
+		};
+		799FF42D1F650B60004F132B /* GKPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				799FF42E1F650B60004F132B /* GKPlayer.h */,
+				799FF42F1F650B60004F132B /* GKPlayer.m */,
+				799FF4301F650B60004F132B /* GKSliderView */,
+				799FF4331F650B60004F132B /* GKTools */,
+			);
+			path = GKPlayer;
+			sourceTree = "<group>";
+		};
+		799FF4301F650B60004F132B /* GKSliderView */ = {
+			isa = PBXGroup;
+			children = (
+				799FF4311F650B60004F132B /* GKSliderView.h */,
+				799FF4321F650B60004F132B /* GKSliderView.m */,
+			);
+			path = GKSliderView;
+			sourceTree = "<group>";
+		};
+		799FF4331F650B60004F132B /* GKTools */ = {
+			isa = PBXGroup;
+			children = (
+				799FF4341F650B60004F132B /* GKLyricParser */,
+				799FF4391F650B60004F132B /* GKTool */,
+			);
+			path = GKTools;
+			sourceTree = "<group>";
+		};
+		799FF4341F650B60004F132B /* GKLyricParser */ = {
+			isa = PBXGroup;
+			children = (
+				799FF4351F650B60004F132B /* GKLyricModel.h */,
+				799FF4361F650B60004F132B /* GKLyricModel.m */,
+				799FF4371F650B60004F132B /* GKLyricParser.h */,
+				799FF4381F650B60004F132B /* GKLyricParser.m */,
+			);
+			path = GKLyricParser;
+			sourceTree = "<group>";
+		};
+		799FF4391F650B60004F132B /* GKTool */ = {
+			isa = PBXGroup;
+			children = (
+				799FF43A1F650B60004F132B /* GKTool.h */,
+				799FF43B1F650B60004F132B /* GKTool.m */,
+			);
+			path = GKTool;
+			sourceTree = "<group>";
+		};
+		799FF4411F650B76004F132B /* Controlller */ = {
+			isa = PBXGroup;
+			children = (
+				799FF4441F650BD4004F132B /* GKQQListViewController.h */,
+				799FF4451F650BD4004F132B /* GKQQListViewController.m */,
+				799FF4471F650BE0004F132B /* GKQQPlayerViewController.h */,
+				799FF4481F650BE0004F132B /* GKQQPlayerViewController.m */,
+			);
+			path = Controlller;
+			sourceTree = "<group>";
+		};
+		799FF4421F650B76004F132B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				799FF44A1F650C08004F132B /* GKQQTools.h */,
+				799FF44B1F650C08004F132B /* GKQQTools.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		799FF4431F650B76004F132B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				799FF4501F652F4C004F132B /* GKQQListViewCell.h */,
+				799FF4511F652F4C004F132B /* GKQQListViewCell.m */,
+				799FF4521F652F4C004F132B /* GKQQListViewCell.xib */,
+				79A854B71F653B38000714AF /* GKQQLyricView.h */,
+				79A854B81F653B38000714AF /* GKQQLyricView.m */,
+				799FF44D1F651481004F132B /* GKQQPlayerControlView.h */,
+				799FF44E1F651481004F132B /* GKQQPlayerControlView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		799FF3CD1F63EF3B004F132B /* GKQQMusicDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 799FF3FB1F63EF3C004F132B /* Build configuration list for PBXNativeTarget "GKQQMusicDemo" */;
+			buildPhases = (
+				2CAD29B9FC84F5329DE0B8B3 /* [CP] Check Pods Manifest.lock */,
+				799FF3CA1F63EF3B004F132B /* Sources */,
+				799FF3CB1F63EF3B004F132B /* Frameworks */,
+				799FF3CC1F63EF3B004F132B /* Resources */,
+				3EE36BFCDAC84EBD3329EEE8 /* [CP] Embed Pods Frameworks */,
+				6D8C1EE5856528B23CE5FA85 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GKQQMusicDemo;
+			productName = GKQQMusicDemo;
+			productReference = 799FF3CE1F63EF3B004F132B /* GKQQMusicDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		799FF3E61F63EF3C004F132B /* GKQQMusicDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 799FF3FE1F63EF3C004F132B /* Build configuration list for PBXNativeTarget "GKQQMusicDemoTests" */;
+			buildPhases = (
+				799FF3E31F63EF3C004F132B /* Sources */,
+				799FF3E41F63EF3C004F132B /* Frameworks */,
+				799FF3E51F63EF3C004F132B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				799FF3E91F63EF3C004F132B /* PBXTargetDependency */,
+			);
+			name = GKQQMusicDemoTests;
+			productName = GKQQMusicDemoTests;
+			productReference = 799FF3E71F63EF3C004F132B /* GKQQMusicDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		799FF3F11F63EF3C004F132B /* GKQQMusicDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 799FF4011F63EF3C004F132B /* Build configuration list for PBXNativeTarget "GKQQMusicDemoUITests" */;
+			buildPhases = (
+				799FF3EE1F63EF3C004F132B /* Sources */,
+				799FF3EF1F63EF3C004F132B /* Frameworks */,
+				799FF3F01F63EF3C004F132B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				799FF3F41F63EF3C004F132B /* PBXTargetDependency */,
+			);
+			name = GKQQMusicDemoUITests;
+			productName = GKQQMusicDemoUITests;
+			productReference = 799FF3F21F63EF3C004F132B /* GKQQMusicDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		799FF3C61F63EF3B004F132B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "高坤";
+				TargetAttributes = {
+					799FF3CD1F63EF3B004F132B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Manual;
+					};
+					799FF3E61F63EF3C004F132B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 85SKD6C7ZZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 799FF3CD1F63EF3B004F132B;
+					};
+					799FF3F11F63EF3C004F132B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 85SKD6C7ZZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 799FF3CD1F63EF3B004F132B;
+					};
+				};
+			};
+			buildConfigurationList = 799FF3C91F63EF3B004F132B /* Build configuration list for PBXProject "GKQQMusicDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 799FF3C51F63EF3B004F132B;
+			productRefGroup = 799FF3CF1F63EF3B004F132B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				799FF3CD1F63EF3B004F132B /* GKQQMusicDemo */,
+				799FF3E61F63EF3C004F132B /* GKQQMusicDemoTests */,
+				799FF3F11F63EF3C004F132B /* GKQQMusicDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		799FF3CC1F63EF3B004F132B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799FF4541F652F4C004F132B /* GKQQListViewCell.xib in Resources */,
+				799FF3E11F63EF3B004F132B /* LaunchScreen.storyboard in Resources */,
+				79A854B61F65364A000714AF /* audio.json in Resources */,
+				799FF3DE1F63EF3B004F132B /* Assets.xcassets in Resources */,
+				799FF3DC1F63EF3B004F132B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		799FF3E51F63EF3C004F132B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		799FF3F01F63EF3C004F132B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CAD29B9FC84F5329DE0B8B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GKQQMusicDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EE36BFCDAC84EBD3329EEE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GKQQMusicDemo/Pods-GKQQMusicDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/GKCover/GKCover.framework",
+				"${BUILT_PRODUCTS_DIR}/GKNavigationBarViewController/GKNavigationBarViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GKCover.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GKNavigationBarViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GKQQMusicDemo/Pods-GKQQMusicDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D8C1EE5856528B23CE5FA85 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GKQQMusicDemo/Pods-GKQQMusicDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		799FF3CA1F63EF3B004F132B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799FF3D31F63EF3B004F132B /* main.m in Sources */,
+				799FF4491F650BE0004F132B /* GKQQPlayerViewController.m in Sources */,
+				799FF43D1F650B60004F132B /* GKSliderView.m in Sources */,
+				799FF4461F650BD4004F132B /* GKQQListViewController.m in Sources */,
+				799FF4401F650B60004F132B /* GKTool.m in Sources */,
+				799FF44F1F651481004F132B /* GKQQPlayerControlView.m in Sources */,
+				799FF43E1F650B60004F132B /* GKLyricModel.m in Sources */,
+				799FF42A1F650B0F004F132B /* AppDelegate.m in Sources */,
+				799FF4531F652F4C004F132B /* GKQQListViewCell.m in Sources */,
+				799FF43F1F650B60004F132B /* GKLyricParser.m in Sources */,
+				799FF43C1F650B60004F132B /* GKPlayer.m in Sources */,
+				79A854B91F653B38000714AF /* GKQQLyricView.m in Sources */,
+				799FF44C1F650C08004F132B /* GKQQTools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		799FF3E31F63EF3C004F132B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799FF3EC1F63EF3C004F132B /* GKQQMusicDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		799FF3EE1F63EF3C004F132B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799FF3F71F63EF3C004F132B /* GKQQMusicDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		799FF3E91F63EF3C004F132B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 799FF3CD1F63EF3B004F132B /* GKQQMusicDemo */;
+			targetProxy = 799FF3E81F63EF3C004F132B /* PBXContainerItemProxy */;
+		};
+		799FF3F41F63EF3C004F132B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 799FF3CD1F63EF3B004F132B /* GKQQMusicDemo */;
+			targetProxy = 799FF3F31F63EF3C004F132B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		799FF3DA1F63EF3B004F132B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				799FF3DB1F63EF3B004F132B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		799FF3DF1F63EF3B004F132B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				799FF3E01F63EF3B004F132B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		799FF3F91F63EF3C004F132B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		799FF3FA1F63EF3C004F132B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		799FF3FC1F63EF3C004F132B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F01FBAE6CA214BB9E52270DC /* Pods-GKQQMusicDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = GKQQMusicDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = GKQQMusicDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maserati.swift.GKQQMusicDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		799FF3FD1F63EF3C004F132B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DF2E0A47D456BC21FB62938 /* Pods-GKQQMusicDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = GKQQMusicDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = GKQQMusicDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maserati.swift.GKQQMusicDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		799FF3FF1F63EF3C004F132B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 85SKD6C7ZZ;
+				INFOPLIST_FILE = GKQQMusicDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maserati.swift.GKQQMusicDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GKQQMusicDemo.app/GKQQMusicDemo";
+			};
+			name = Debug;
+		};
+		799FF4001F63EF3C004F132B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 85SKD6C7ZZ;
+				INFOPLIST_FILE = GKQQMusicDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maserati.swift.GKQQMusicDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GKQQMusicDemo.app/GKQQMusicDemo";
+			};
+			name = Release;
+		};
+		799FF4021F63EF3C004F132B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 85SKD6C7ZZ;
+				INFOPLIST_FILE = GKQQMusicDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maserati.swift.GKQQMusicDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GKQQMusicDemo;
+			};
+			name = Debug;
+		};
+		799FF4031F63EF3C004F132B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 85SKD6C7ZZ;
+				INFOPLIST_FILE = GKQQMusicDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maserati.swift.GKQQMusicDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GKQQMusicDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		799FF3C91F63EF3B004F132B /* Build configuration list for PBXProject "GKQQMusicDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				799FF3F91F63EF3C004F132B /* Debug */,
+				799FF3FA1F63EF3C004F132B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		799FF3FB1F63EF3C004F132B /* Build configuration list for PBXNativeTarget "GKQQMusicDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				799FF3FC1F63EF3C004F132B /* Debug */,
+				799FF3FD1F63EF3C004F132B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		799FF3FE1F63EF3C004F132B /* Build configuration list for PBXNativeTarget "GKQQMusicDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				799FF3FF1F63EF3C004F132B /* Debug */,
+				799FF4001F63EF3C004F132B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		799FF4011F63EF3C004F132B /* Build configuration list for PBXNativeTarget "GKQQMusicDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				799FF4021F63EF3C004F132B /* Debug */,
+				799FF4031F63EF3C004F132B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 799FF3C61F63EF3B004F132B /* Project object */;
+}
